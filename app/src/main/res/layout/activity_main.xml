@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim16"
+    tools:context="com.example.android.newsappstage2.MainActivity">
+
+    <TextView
+        android:id="@+id/newsTitle"
+        tools:text="@string/news_title"
+        style="@style/Main_Textview1_Style" />
+
+    <TextView
+        android:id="@+id/newsCategory"
+        tools:text="@string/news_category"
+        style="@style/Main_Textview2_Style" />
+
+    <TextView
+        android:id="@+id/newsAuthor"
+        tools:text="@string/author"
+        style="@style/Main_Textview3_Style" />
+
+    <TextView
+        android:id="@+id/newsDate"
+        tools:text="@string/date"
+        style="@style/Main_Textview4_Style" />
+
+</RelativeLayout>
+

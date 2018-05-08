@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/newsList"
+        style="@style/NewsList_Listview_Style">
+
+    </ListView>
+
+    <!-- This TextView will be visible in case that the list has no items. -->
+    <TextView
+        android:id="@+id/noNews"
+        tools:text="@string/sorry_there_are_no_news_to_display"
+        style="@style/NewsList_Textview_Style" />
+
+    <!-- Loading indicator is only shown before the first load -->
+    <ProgressBar
+        android:id="@+id/loading_info"
+        style="@style/NewsList_Progress_Style" />
+
+</RelativeLayout>

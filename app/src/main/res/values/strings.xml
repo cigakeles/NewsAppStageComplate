@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">News app, Stage 1 </string>
+    <string name="news_title">News Title</string>
+    <string name="news_category">News Category</string>
+    <string name="author">author</string>
+    <string name="date">date</string>
+    <string name="sorry_there_are_no_news_to_display">Sorry, unexpected problem with downloading data from Guardian\'s server. Close the app and try it later.</string>
+    <string name="no_connection">There is no internet connection. Please turn on your wifi or mobile data and restart the app.</string>
+    <string name="no_browser">In your cell phone there is no internet browser. If you want to read news, please download and install some.</string>
+    <string name="no_news_stories_found">No news stories found.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_preference1key">settings_preference2</string>
+    <string name="settings_preference1title">Search For</string>
+    <string name="settings_preference1dafaultvalue">Politics</string>
+
+    <string name="settings_preference2key">settings_preference1</string>
+    <string name="settings_preference2title">Order By</string>
+    <string name="settings_preference2dafaultvalue">newest</string>
+
+</resources>
